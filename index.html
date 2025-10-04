@@ -1,1 +1,259 @@
-<!-- index.html placeholder -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lalitha Chebrolu - Video Editor, Social Media Manager & AI Automation Specialist">
+    <title>Lalitha Chebrolu - Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Lalitha Chebrolu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="typewriter-text">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-subtitle">B.Tech ECE Student | Video Editor | Social Media Manager | AI Automation Specialist</p>
+                <button class="cta-button" onclick="scrollToSection('contact')">
+                    <i class="fas fa-paper-plane me-2"></i>Let's Connect
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Bridging Technology and Creativity</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="about-content fade-in">
+                        <p>I'm a second-year B.Tech ECE student at Andhra University who loves turning ideas into reality through technology and creativity.</p>
+                        
+                        <p>My work spans video editing, social media management, and AI automation. I create engaging content that captures attention, manage social platforms strategically, and build automation systems that solve real business problems.</p>
+                        
+                        <p>I'm driven by curiosity and a passion for learning. Every project teaches me something new, and I bring that energy into everything I create.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-4 fade-in fade-in-delay-1">
+                    <div class="stats-card">
+                        <div class="stats-icon"><i class="fas fa-video"></i></div>
+                        <div class="stats-number counter" data-target="30">0</div>
+                        <div class="stats-label">Videos Edited</div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in fade-in-delay-2">
+                    <div class="stats-card">
+                        <div class="stats-icon"><i class="fas fa-images"></i></div>
+                        <div class="stats-number counter" data-target="30">0</div>
+                        <div class="stats-label">Thumbnails Designed</div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in fade-in-delay-3">
+                    <div class="stats-card">
+                        <div class="stats-icon"><i class="fas fa-eye"></i></div>
+                        <div class="stats-number">200K+</div>
+                        <div class="stats-label">Views Generated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-dark-gradient">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">What I Do</h2>
+                <p class="section-subtitle">Transforming Ideas into Reality</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-video"></i></div>
+                        <h3 class="service-title">Video Editing</h3>
+                        <p class="service-description">Fast-paced, engaging edits for YouTube, Reels, and Shorts. I focus on storytelling, retention, and creating content that keeps viewers watching.</p>
+                        <ul class="service-list">
+                            <li>YouTube long-form content</li>
+                            <li>Short-form videos (Reels, Shorts)</li>
+                            <li>Dynamic transitions & B-roll</li>
+                            <li>Captions & audio mixing</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 fade-in fade-in-delay-1">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-users"></i></div>
+                        <h3 class="service-title">Social Media Management</h3>
+                        <p class="service-description">Strategic content planning and execution across platforms. I help build brand presence through consistent, engaging content and data-driven optimization.</p>
+                        <ul class="service-list">
+                            <li>Content calendar & strategy</li>
+                            <li>Multi-platform management</li>
+                            <li>Trend research & implementation</li>
+                            <li>Performance tracking & insights</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 fade-in fade-in-delay-2">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-brain"></i></div>
+                        <h3 class="service-title">AI Automation</h3>
+                        <p class="service-description">Building smart automation systems that save time and boost efficiency. I create custom solutions that streamline operations and solve business challenges.</p>
+                        <ul class="service-list">
+                            <li>Workflow automation solutions</li>
+                            <li>AI-powered tools & chatbots</li>
+                            <li>Business process optimization</li>
+                            <li>Custom integration systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic Journey</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8 fade-in">
+                    <div class="education-card">
+                        <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3 class="education-degree">Bachelor of Technology in Electronics and Communication Engineering</h3>
+                        <p class="education-institution">Andhra University</p>
+                        <p class="education-year">Second Year | Current</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-dark-gradient">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Let's Create Something Amazing</h2>
+                <p class="section-subtitle">Ready to collaborate? I'd love to hear from you!</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form fade-in">
+                        <form id="contactForm">
+                            <div class="mb-4">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="service" class="form-label">Service Interested In</label>
+                                <select class="form-select" id="service">
+                                    <option value="video-editing">Video Editing</option>
+                                    <option value="social-media">Social Media Management</option>
+                                    <option value="ai-automation">AI Automation</option>
+                                    <option value="combination">Combination of Services</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button w-100">
+                                <i class="fas fa-rocket me-2"></i>Start the Conversation
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/lalitha-ch" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/lalitha-55" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:lalitha@example.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Lalitha Chebrolu. Crafted with <i class="fas fa-heart text-danger"></i> and passion.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
